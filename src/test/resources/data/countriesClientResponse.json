@@ -1,0 +1,42 @@
+[
+  {
+    "code": "CA",
+    "name": "Canada",
+    "continent": {
+      "code": "NA",
+      "name": "North America"
+    }
+  },
+  {
+    "code": "CL",
+    "name": "Chile",
+    "continent": {
+      "code": "SA",
+      "name": "South America"
+    }
+  },
+  {
+    "code": "CO",
+    "name": "Colombia",
+    "continent": {
+      "code": "SA",
+      "name": "South America"
+    }
+  },
+  {
+    "code": "PA",
+    "name": "Panama",
+    "continent": {
+      "code": "NA",
+      "name": "North America"
+    }
+  },
+  {
+    "code": "US",
+    "name": "United States",
+    "continent": {
+      "code": "NA",
+      "name": "North America"
+    }
+  }
+]

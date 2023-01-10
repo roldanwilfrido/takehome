@@ -1,0 +1,30 @@
+server:
+  servlet:
+    context-path: /takehome
+
+spring:
+  application:
+    name: "takehome"
+  jpa:
+    defer-datasource-initialization: true
+    properties:
+      jakarta:
+        persistence:
+          sharedCache:
+            mode: UNSPECIFIED
+
+client:
+  countries-trevor-blades:
+    name: "Countries trevor blades client"
+    url: "https://countries.trevorblades.com/graphql"
+    retrieve-path: "countries"
+
+rate-limit:
+  request-per-sec:
+    number-of-secure-request: ${nsr:5}
+    number-of-unsecure-request: ${nur:1}
+
+login:
+  url: "/login"
+  secret: ${secret}
+  validity-seconds: 3600
