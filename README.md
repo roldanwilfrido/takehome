@@ -83,7 +83,7 @@ docker run --name takehome-api -p8080:8080 -e nsr=20 -e nur=5 -e secret=u2mjKcte
 
 ![Public call](images/public.png)
 
-><i>Note: For more than 5 request per seconds, it responses 422 code error</i>
+><i>Note: For more than 5 request per seconds, it responses 429 code error</i>
 
 ![Public JMeter test](images/public_jmeter.png)
 
@@ -125,7 +125,7 @@ Use the Bearer token as an Authorization
 
 ![Secure Postman test](images/secure.png)
 
-><i>Note: For more than 20 request per seconds, it responses 422 code error</i>
+><i>Note: For more than 20 request per seconds, it responses 429 code error</i>
 
 ![Secure JMeter test](images/secure_jmeter.png)
 
